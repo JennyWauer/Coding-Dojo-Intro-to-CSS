@@ -1,0 +1,161 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 950px;
+    height: auto;
+    margin: 0px auto;
+    background-image: linear-gradient(to right, #1a001a, #391339, #602060, #391339, #1a001a);
+}
+
+    div.container .header {
+        width: 950px;
+        height: 50px;   
+        display: inline-block;
+        background-color: whitesmoke;
+        padding-bottom: 10px;
+    }
+
+        div.container .header h1 {
+            font-family: 'Grandstander', cursive;
+            display: inline-block;
+            margin: 10px 10px 0px 10px;
+            padding: 5px 15px 0px 5px;
+
+        }
+
+        div.container .header h3 {
+            display: inline-block;
+            margin: 10px 10px 0px 10px;
+            padding: 5px 5px 0px 395px;
+        }
+
+
+    div.intro {
+        height: auto;
+        width: 929px;
+        padding: 15px 10px 10px 10px;
+    }
+
+        div.intro img {
+            height: 238px;
+            width: 375px;
+            border: 5px solid silver;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 5px;
+        }
+
+        div.intro .about {
+            height: 238px;
+            width: 520px;
+            display: inline-block;
+            margin-left: 10px;
+            padding-bottom: 10px;
+            vertical-align: top;
+            background-image: linear-gradient(to right, white, #f9ecf9);
+        }
+            div.intro .about p {
+                font-size: small;
+                margin: 0px;
+                padding: 10px;
+            }
+                div.intro .about p a {
+                    text-decoration: underline;
+                }
+
+
+.gradient-header {
+    margin: 0px;
+    padding: 5px;
+    background-image: linear-gradient(silver, grey, silver);
+    color: white;
+}
+
+div.projects {
+    height: fit-content;
+    display: flex;
+    width: 950px;
+}
+
+    div.projects .card {
+        display: inline-block;
+        width: 295px;
+        height: fit-content;
+        vertical-align: top;
+        margin: 5px 0px 15px 16px;
+        background-image: linear-gradient(to right, white, #f9ecf9);
+        padding-bottom: 15px;
+    }
+
+        div.projects .card .thumbnail {
+            /* height: 125px; */
+            width: 295px;
+        }
+
+        div.projects .card p {
+            padding: 10px;
+            font-size: smaller;
+            margin: 0px;
+            text-align: justify;
+            height: 130px;
+        }
+
+        div.projects .card .button {
+            background-color: #2d8659;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 4px;
+            color: white;
+            box-shadow: 0px 2px 4px 2px lightgray;
+            display: block;
+            height: auto;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        div.projects .card .software {
+            display: inline-block;
+            padding: 10px 10px 0px 10px;
+        }
+
+        div.projects .card .card-image {
+            height: 40px;
+            width: 40px;
+            margin: 5px;
+        }
+
+div.container .footer {
+    width: 950px;
+    height: 50px;   
+    display: inline-block;
+    background-color: whitesmoke;
+    text-align: center;
+    vertical-align: top;
+    padding-bottom: 10px;
+}
+
+    div.container .footer p{
+        margin: 5px;
+        font-size: smaller;
+    }
+
+    div.container .footer img{
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+    }
+
+    div.container .footer .contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+        div.container .footer .contact p {
+            text-decoration: underline;
+            display: inline-block;
+            margin-left: 2px;
+        }
